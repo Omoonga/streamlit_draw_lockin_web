@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.image("C:\\Users\\Blammo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts\\streamlitweb#1\\assets\\Drip_Goku.png")
+st.image("streamlitweb#1/assets/Drip_Goku.png")
 st.title("KNOWLEDGE GAP 📖")
 st.subheader("This is for the errors that you can not explain.")
 st.write("""
@@ -30,4 +30,4 @@ for i1, t1 in enumerate(st.session_state["task1_list"]):
     if st.checkbox(f"{i1 + 1}. {t1}"):
         st.session_state["task1_list"].remove(t1)
 
-st.image("streamlitweb#1\\assets\\yep.jpg")
+st.image("streamlitweb#1/assets/yep.jpg")
