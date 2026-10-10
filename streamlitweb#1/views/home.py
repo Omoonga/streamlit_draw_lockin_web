@@ -12,7 +12,7 @@ def show_contact_form():
 # --- HERO SECTION ---
 col1, col2, = st.columns(2, gap="large", vertical_alignment = "center")
 with col1:
-    st.image("C:\\Users\\Blammo\\AppData\\Local\\Python\\pythoncore-3.14-64\\Scripts\\streamlitweb#1\\assets\\thumbsup.png")
+    st.image("streamlitweb#1/assets/thumbsup.png")
 with col2:
     st.subheader("Know Exactly What To Practice", anchor = False)
     st.write("Always make sure you list out the errors you see.")
@@ -57,4 +57,4 @@ for i, t in enumerate(st.session_state["task_list"]):
     if st.checkbox(f"{i + 1}. {t}"):
         st.session_state["task_list"].remove(t)
 
-st.image("streamlitweb#1\\assets\\The_Swamp.png")
+st.image("streamlitweb#1/assets/The_Swamp.png")
