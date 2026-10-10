@@ -2,7 +2,7 @@ import streamlit as st
 
 left3, mid3, right3 = st.columns(3, vertical_alignment="center")
 with mid3:
-    st.image("streamlitweb#1\\assets\\SameMori.png")
+    st.image("streamlitweb#1/assets/SameMori.png")
 
 st.title("PERCEPTION GAP 👀")
 st.subheader("FLIP CANVAS: Find the errors in your art.")
@@ -32,4 +32,4 @@ for i3, t3 in enumerate(st.session_state["task3_list"]):
         st.session_state["task3_list"].remove(t3)
 
 
-st.image("streamlitweb#1\\assets\\Eric chud.png")
+st.image("streamlitweb#1/assets/Eric chud.png")
