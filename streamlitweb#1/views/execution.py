@@ -1,8 +1,8 @@
 import streamlit as st
 
-#left, mid, right = st.columns(3, vertical_alignment="center")
-#with mid:
-#    st.image("streamlitweb#1\\assets\\what.jpg", width=250)
+left, mid, right = st.columns(3, vertical_alignment="center")
+with mid:
+    st.image("assets\\what.jpg", width=250)
 
 st.title("EXECUTION GAP 🛠️")
 st.subheader("If you can explain it, THEN PRACTICE IT!!!")
