@@ -1,8 +1,8 @@
 import streamlit as st
 
-left, mid, right = st.columns(3, vertical_alignment="center")
-with mid:
-    st.image("streamlitweb#1\\assets\\what.jpg", width=250)
+#left, mid, right = st.columns(3, vertical_alignment="center")
+#with mid:
+#    st.image("streamlitweb#1\\assets\\what.jpg", width=250)
 
 st.title("EXECUTION GAP 🛠️")
 st.subheader("If you can explain it, THEN PRACTICE IT!!!")
@@ -34,4 +34,4 @@ for i2, t2 in enumerate(st.session_state["task2_list"]):
     if st.checkbox(f"{i2 + 1}. {t2}"):
         st.session_state["task2_list"].remove(t2)
 
-st.image("streamlitweb#1\\assets\\wat.jpg")
+# st.image("streamlitweb#1\\assets\\wat.jpg")
