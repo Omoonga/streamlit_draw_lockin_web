@@ -34,4 +34,4 @@ for i2, t2 in enumerate(st.session_state["task2_list"]):
     if st.checkbox(f"{i2 + 1}. {t2}"):
         st.session_state["task2_list"].remove(t2)
 
-# st.image("streamlitweb#1\\assets\\wat.jpg")
+ st.image("streamlitweb#1/assets/wat.jpg")
